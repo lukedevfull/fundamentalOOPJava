@@ -1,6 +1,6 @@
 /**
  * Essa classe abstrata representa um modelo de veiculo
- * @author joao
+ * @author luke
  *
  */
 public abstract class VeicleModel {
