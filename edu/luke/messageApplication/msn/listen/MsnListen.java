@@ -1,10 +1,10 @@
-package edu.luke.messageApplication.msnTester;
+package edu.luke.messageApplication.msn.listen;
 
-import edu.luke.messageApplication.msnmodel.MsnModel;
+import edu.luke.messageApplication.msn.msnmodel.Model;
 
 public class MsnListen {
     public static void main(String[] args) {
-        MsnModel chatModel = new MsnModel();
+        Model chatModel = new Model();
         chatModel.sendMessage("Hello");
         chatModel.receiveMessage("Hello!!", "John");
     }
